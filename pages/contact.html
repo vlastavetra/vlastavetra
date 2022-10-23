@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VB</title>
+  <link href="../css/style.css" rel="stylesheet" />
+</head>
+
+<body class="body-container">
+  <header class="header-container">
+    <nav class="header-nav-container">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="../index.html" class="header-nav-item-link">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="about.html" class="header-nav-item-link">About</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-item-link header-nav-item-link-active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 id="profile-name" class="title-h1 title-h1-contact">Contact</h1>
+    <section class="section-container section-container-contact">
+      <form class="contact-form" action="https://formspree.io/f/maykjqpk" method="POST">
+        <fieldset class="contact-form-fieldset">
+          <label for="firstName" class="contact-form-label">Firt name:</label>
+          <input type="text" id="firstName" name="firstName" class="contact-form-input" required>
+        </fieldset>
+        <fieldset class="contact-form-fieldset">
+          <label for="lastName" class="contact-form-label">Last name:</label>
+          <input type="text" id="lastName" name="lastName" class="contact-form-input">
+        </fieldset>
+        <fieldset class="contact-form-fieldset">
+          <label for="email" class="contact-form-label">E-mail:</label>
+          <input type="email" id="email" name="email" class="contact-form-input" required>
+        </fieldset>
+        <fieldset class="contact-form-fieldset">
+          <label for="comment" class="contact-form-label">Comment:</label>
+          <textarea class="contact-form-input" id="comment" name="comment" placeholder="Some additional info..."
+            rows="10" required></textarea>
+        </fieldset>
+        <fieldset class="contact-form-fieldset contact-form-fieldset-select">
+          <label for="list" class="contact-form-label">Source:</label>
+          <select class="contact-form-input contact-form-select" id="list" name="source" required>
+            <option value="">-- choose --</option>
+            <option value="secret">It's a secret</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="facebook">Facebook</option>
+            <option value="recomendation">Some recomendation</option>
+          </select>
+        </fieldset>
+        <button class="contact-btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer-container">
+    <nav class="footer-nav-container">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href='../index.html' class="footer-nav-item-link">Home</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="./about.html" class="footer-nav-item-link">About</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-item-link footer-nav-item-link-active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <span class="footer-text"></span>
+  </footer>
+  <script src="../js/form.js"></script>
+  <script src="../js/footer.js"></script>
+</body>
+
+</html>
