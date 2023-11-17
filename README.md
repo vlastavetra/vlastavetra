@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[About me](https://vlastavetra.github.io/vlastavetra/index.html)
+[About me](https://www.linkedin.com/in/viktoria-borisova/)
 
 <!--
 **vlastavetra/vlastavetra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
